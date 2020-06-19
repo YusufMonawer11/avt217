@@ -1,4 +1,17 @@
+main {
+  padding: 300px;
+  background-color: darkgreen;
+  color: white
+}
+body {
+  font-family: futura-pt, sans-serif;
 }
 h1 {
-  font-family: futura-pt, sans-serif;
+  font-size: 750%;
+}
+h2 {
+  font-size: 400;
+}
+h3 {
+  font-size: 300%;
 }
