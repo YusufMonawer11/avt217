@@ -10,14 +10,17 @@ main {
   width: 100px;
   height: 100px;
   background-color: red
+  float: left;
 }
 .shape2 {
   width: 100px;
   height: 100px;
   background-color: blue
+  float: left;
 }
 .shape3 {
   width: 100px;
   height: 100px;
   background-color: yellow
+  float: left;
 }
