@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 120vw;
+  margin: -10vw;
+}
+.shape1 {
+  width: 100px;
+  height: 100px;
+  background-color: red
+}
+.shape2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue
+}
+.shape3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow
+}
