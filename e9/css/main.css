@@ -4,15 +4,22 @@
   body {
     margin: 0;
 }
-.red {
+
+.board {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.pink {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: hotpink;
   float: left;
 }
-.black {
+
+.yellow {
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: lightyellow;
   float: left;
 }
