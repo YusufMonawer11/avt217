@@ -10,6 +10,11 @@
   margin: 50px auto;
 }
 
+.board2 {
+  width: 800px;
+  margin: 50px auto;
+}
+
 .pink {
   width: 100px;
   height: 100px;
@@ -22,4 +27,79 @@
   height: 100px;
   background-color: lightyellow;
   float: left;
+}
+
+.header1 {
+  width: 774px;
+  height: 200px;
+  background-color: pink;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.title1 {
+  width: 774px;
+  height: 50px;
+  background-color: pink;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.column {
+  width: 241.67px;
+  height: 600px;
+  background-color: pink;
+  float: left;
+  margin-left: 25px;
+}
+
+.footer1 {
+  width: 774px;
+  height: 200px;
+  background-color: pink;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.header2 {
+  width: 774px;
+  height: 200px;
+  background-color: pink;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.shape1 {
+  width: 600px;
+  height: 400px;
+  background-color: pink;
+  float: left;
+  margin-top: 150px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.shape2 {
+    width: 150px;
+    height: 200px;
+    background-color: pink;
+    float: right;
+    margin-top: 150px;
+}
+
+.shape3 {
+  width: 600px;
+  height: 25px;
+  background-color: pink;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 20px;
 }
