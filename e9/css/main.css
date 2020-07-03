@@ -15,6 +15,11 @@
   margin: 50px auto;
 }
 
+.board3 {
+  width: 2568px;
+  margin: 50px auto;
+}
+
 .pink {
   width: 100px;
   height: 100px;
@@ -102,4 +107,267 @@
   margin-top: 20px;
   margin-left: 25px;
   margin-right: 20px;
+}
+
+.shape4 {
+  width: 145px;
+  height: 170px;
+  background-color: pink;
+  float: left;
+  margin-right: 5px
+}
+.shape5 {
+  width: 495px;
+  height: 170px;
+  background-color: pink;
+  float: left;
+}
+.shape6 {
+  width: 145px;
+  height: 170px;
+  background-color: pink;
+  float: left;
+  margin-left: 5px;
+}
+.shape7 {
+  width: 145px;
+  height: 320px;
+  background-color: pink;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 2.5px;
+}
+.shape8 {
+  width: 245px;
+  height: 315px;
+  background-color: pink;
+  float: left;
+  margin-top: 5px;
+  margin-right: 2.5px;
+  margin-bottom: 2.5px;
+}
+.shape9 {
+  width: 245px;
+  height: 315px;
+  background-color: pink;
+  float: left;
+  margin-top: 5px;
+  margin-left: 2.5px;
+  margin-bottom: 2.5px;
+}
+.shape10 {
+  width: 145px;
+  height: 320px;
+  background-color: pink;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 2.5px;
+}
+.shape11 {
+  width: 145px;
+  height: 320px;
+  background-color: pink;
+  float: left;
+  margin-right: 5px;
+  margin-top: 2.5px;
+}
+.shape12 {
+  width: 245px;
+  height: 315px;
+  background-color: pink;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 2.5px;
+  margin-top: 2.5px;
+}
+.shape13 {
+  width: 245px;
+  height: 315px;
+  background-color: pink;
+  float: left;
+  margin-bottom: 5px;
+  margin-left: 2.5px;
+  margin-top: 2.5px;
+}
+.shape14 {
+  width: 145px;
+  height: 320px;
+  background-color: pink;
+  float: left;
+  margin-left: 5px;
+  margin-top: 2.5px;
+}
+.shape15 {
+  width: 145px;
+  height: 170px;
+  background-color: pink;
+  float: left;
+  margin-right: 5px
+}
+.shape16 {
+  width: 495px;
+  height: 170px;
+  background-color: pink;
+  float: left;
+}
+.shape17 {
+  width: 145px;
+  height: 170px;
+  background-color: pink;
+  float: left;
+  margin-left: 5px;
+}
+
+.top {
+    width: 2568px;
+    height: 30px;
+    background-color: tomato;
+    float: left;
+}
+.leftside {
+    width: 25px;
+    height: 200px;
+    background-color: tomato;
+    float: left;
+    margin-right: 2.5px
+}
+.block {
+    width: 100px;
+    height: 197.5px;
+    background-color: tomato;
+    float: left;
+    margin-right: 2.5px;
+    margin-top: 2.5px
+}
+.block2 {
+    width: 100px;
+    height: 197.5px;
+    background-color: tomato;
+    float: left;
+    margin-top: 2.5px;
+}
+.middle {
+    width: 25px;
+    height: 200px;
+    background-color: tomato;
+    float: left;
+    margin-right: 2.5px;
+}
+.rightside {
+    width: 25px;
+    height: 200px;
+    background-color: tomato;
+    float: left;
+    margin-left: 2.5px;
+}
+.block3 {
+    width: 203.5px;
+    height: 197.5px;
+    background-color: tomato;
+    float: left;
+    margin-top: 2.5px;
+    margin-right:.5px;
+  }
+
+  .block4 {
+      width: 100px;
+      height: 197.5px;
+      background-color: tomato;
+      float: left;
+      margin-left: 2.5px;
+      margin-top: 2.5px
+  }
+
+  .block5 {
+      width: 201.5px;
+      height: 197.5px;
+      background-color: tomato;
+      float: left;
+      margin-left: 1.25px;
+      margin-top: 2.5px;
+      margin-right: 2.5px;
+  }
+  .block6 {
+      width: 199.5px;
+      height: 199.5px;
+      background-color: tomato;
+      float: left;
+      margin-left: 2.5px;
+      margin-right: 2.0px;
+  }
+  .block7 {
+      width: 100px;
+      height: 199.5px;
+      background-color: tomato;
+      float: left;
+      margin-right: 2.5px;
+  }
+  .block8 {
+    width: 203.5px;
+    height: 197.5px;
+    background-color: tomato;
+    float: left;
+
+    margin-right:.5px;
+  }
+  .block9 {
+      width: 199.5px;
+      height: 198px;
+      background-color: tomato;
+      float: left;
+      margin-left: 2.5px;
+      margin-right: 2.0px;
+  }
+  .block10 {
+    width: 203.5px;
+    height: 197.5px;
+    background-color: tomato;
+    float: left;
+    margin-left: .5px;
+    margin-right:1.5px;
+}
+  .block11 {
+      width: 199.5px;
+      height: 198px;
+      background-color: tomato;
+      float: left;
+      margin-left: 2.5px;
+      margin-right: 2.0px;
+}
+  .block12 {
+      width: 199.5px;
+      height: 198px;
+      background-color: tomato;
+      float: left;
+      margin-left: 1px;
+      margin-right: 2.0px;
+  }
+  .bottom {
+      width: 2568px;
+      height: 30px;
+      background-color: tomato;
+      float: left;
+    }
+  .block13 {
+        width: 100px;
+        height: 197.5px;
+        background-color: tomato;
+        float: left;
+        margin-right: 2.5px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+}
+.rightside2 {
+    width: 25px;
+    height: 205px;
+    background-color: tomato;
+    float: left;
+    margin-left: 2.5px;
+}
+.leftside2 {
+    width: 25px;
+    height: 205px;
+    background-color: tomato;
+    float: left;
+    margin-right: 2.5px
 }
