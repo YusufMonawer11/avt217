@@ -1,4 +1,19 @@
 body {
   background-color: pink;
-  
+}
+
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+
+.col {
+  width: 50%;
+  float: left;
 }
