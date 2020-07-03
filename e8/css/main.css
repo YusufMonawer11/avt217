@@ -1,26 +1,72 @@
-body{
-  margin: 0;
-  overflow-x: hidden;
+* {
+  box-sizing: border-box;
 }
-main {
-  width: 120vw;
-  margin: -10vw;
+  body {
+    margin: 0;
+}
+
+.board {
+  width: 800px;
+  margin: 50px auto;
 }
 .shape1 {
+  background-color: tomato;
   width: 100px;
   height: 100px;
-  background-color: red
+  border-radius: 100px;
   float: left;
 }
 .shape2 {
+  background-color: darkgrey;
   width: 100px;
   height: 100px;
-  background-color: blue
+  border-radius: 100px;
   float: left;
 }
 .shape3 {
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  width: 800px;
+  height: 800px;
+}
+.shape4 {
+  background: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+  width: 800px;
+  height: 800px;
+}
+.shape5 {
+  background: linear-gradient(to bottom left, tomato 50%, #fbf5ef 50%);
   width: 100px;
   height: 100px;
-  background-color: yellow
+  float: left;
+}
+.shape6 {
+  background: linear-gradient(to bottom right, tomato 50%, #fbf5ef 50%);
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.shape7 {
+  background: linear-gradient(to bottom right, #fbf5ef 50%, tomato 50%);
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.shape8 {
+  background: linear-gradient(to bottom left, #fbf5ef 50%, tomato 50%);
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.shape9 {
+  background: repeating-linear-gradient(-90deg, #c84434, #c84434 100px, #213d81 100px, #213d81 200px);
+  width: 800px;
+  height: 800px;
+  float: left;
+}
+.shape10{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  background-image: radial-gradient(white, 15%, transparent 15%);
   float: left;
 }
