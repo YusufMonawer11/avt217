@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+    margin: 0;
+}
+
+.board {
+  width: 875px;
+  margin: 50px auto;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.square2{
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.squaretall {
+  width: 200px;
+  height: 225px;
+  background-color: hotpink;
+  float: left;
+}
+.squaretall2 {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  float: left;
+  margin-bottom: 25px;
+}
+.squaredouble {
+  width: 425px;
+  height: 200px;
+  background-color: hotpink;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
