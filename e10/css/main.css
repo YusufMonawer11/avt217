@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+    margin: 0;
+}
+
+.board1 {
+  width: 1400px;
+  margin: 50px auto;
+}
+
+.pic1 {
+  width: 800px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.pic2 {
+  width: 600px;
+  margin-left: 190px;
+  margin-right: 200px;
+  margin-bottom: 25px;
+  float: left;
+}
+.pic3 {
+  width: 450px;
+  margin-left: 315px;
+  margin-right: 300px;
+  margin-bottom: 25px;
+  float: left;
+}
+.pic4 {
+  width: 300px;
+  margin-left: 530px;
+  margin-right: 500px;
+  margin-bottom: 25px;
+  float: left;
+}

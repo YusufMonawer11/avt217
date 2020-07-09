@@ -17,3 +17,18 @@ main {
   width: 50%;
   float: left;
 }
+@media screen and (max-width: 624px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
