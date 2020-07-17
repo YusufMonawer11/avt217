@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.controller1 {
+  width: 150px;
+  height: 400px;
+  background-color: dodgerblue;
+  position: relative;
+  border-radius: 90px 0px 0px 90px;
+  top:200px;
+  left: 244.5px;
+}
+
+.button1 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 170px;
+  left: 55px;
+}
+.button2 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 230px;
+  left: 55px;
+}
+.button3 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 200px;
+  left: 20px;
+}
+.button4 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 200px;
+  left: 90px;
+}
+.analog1 {
+  width: 55px;
+  height: 55px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 70px;
+  left: 45px;
+}
+.minus {
+  width: 25px;
+  height: 6px;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.camerabutton {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.middle {
+  width: 650px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  left: 394.5px;
+  bottom:200px;
+}
+.screen {
+  width: 575px;
+  height: 325px;
+  background-color: grey;
+  position: absolute;
+  top: 37px;
+  left: 37px;
+}
+
+
+.controller2 {
+  width: 150px;
+  height: 400px;
+  background-color: tomato;
+  position: relative;
+  border-radius: 0px 90px 90px 0px;
+  left:1044.5px;
+  bottom: 600px;
+}
+.plus {
+  width: 25px;
+  height: 6px;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+.plus2 {
+  width: 6px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  right: 108.7px;
+}
+.button5 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 80px;
+  right: 65px;
+}
+.button6 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 140px;
+  right: 65px;
+}
+.button7 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 110px;
+  right: 100px;
+}
+.button8 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 110px;
+  right: 30px;
+}
+.analog2 {
+  width: 55px;
+  height: 55px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100px;
+  top: 210px;
+  right: 52px;
+}
+.homebutton {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50px;
+  top: 300px;
+  right: 100px;
+}
+}
