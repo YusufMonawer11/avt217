@@ -1,12 +1,184 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: auto;
 }
 body {
   margin:0;
 }
 header {
-  background-color: black
+  background-color: black;
+  height: 107px;
 }
-ul {
-  color: white
+footer {
+  background-color: black;
+  height: 107px;
+}
+.logo {
+  width: 474px;
+  height: 69px;
+  float: left;
+  margin-left: 15px;
+}
+.about {
+  font-size: 25px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.music {
+  font-size: 25px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.tour {
+  font-size: 25px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+.aboutpicture {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  width: 670px;
+  height: 520px;
+  font-size: 25px;
+  position: absolute;
+  left: 560px;
+  top: 200px;
+}
+.middle {
+  height: 100vh;
+  background-color: lightpink;
+}
+.p1 {
+  width: 580px;
+  line-height: 35px;
+  margin-top: 80px;
+  margin-left: 50px;
+  float: left;
+}
+.p2 {
+  width: 580px;
+  line-height: 35px;
+  margin-top: 30px;
+  margin-left: 50px;
+  float: left;
+}
+.p3 {
+  width: 200px;
+  line-height: 35px;
+  float: left;
+  margin-left: 425px;
+}
+.middle2 {
+  height: 780vh;
+  background-color: lightyellow;
+}
+.wave {
+  float: left;
+  margin-top: 100px;
+  width: 800px;
+  margin-left: 350px;
+}
+.wavetitle {
+  float: left;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+.wavetracklist {
+  float: left;
+  margin-top: 100px;
+  margin-left: 240px;
+  line-height: 50px;
+  font-size: 25px;
+}
+.bloom {
+  float: left;
+  margin-top: 100px;
+  width: 800px;
+  margin-left: 350px;
+}
+.bloomtitle {
+  float: left;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+.bloomtracklist {
+  float: left;
+  margin-top: 100px;
+  margin-left: 240px;
+  line-height: 50px;
+  font-size: 25px;
+}
+.fling {
+  float: left;
+  margin-top: 100px;
+  width: 800px;;
+  margin-left: 350px;
+}
+.flingtitle {
+  float: left;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+.flingtracklist {
+  float: left;
+  margin-top: 100px;
+  margin-left: 260px;
+  line-height: 50px;
+  font-size: 25px;
+}
+.ninety {
+  float: left;
+  margin-top: 100px;
+  width: 800px;;
+  margin-left: 350px;
+}
+.ninetytitle {
+  float: left;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+.ninetytracklist {
+  float: left;
+  margin-top: 100px;
+  margin-left: 235px;
+  line-height: 50px;
+  font-size: 25px;
+}
+.middle3 {
+  height: 550vh;
+  background-color: lightblue;
+}
+.upcoming {
+  float: left;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.dates {
+  background-color: black;
+  color: white;
+  float: left;
+  margin-top: 10px;
+  margin-left: 250px;
+  text-align: center;
+  width: 965px;
+  line-height: 35px;
+}
+.date1 {
+  margin-top: 50px;
+}
+
+.date2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
