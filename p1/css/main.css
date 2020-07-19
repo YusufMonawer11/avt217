@@ -39,6 +39,9 @@ footer {
   margin-top: 40px;
   margin-right: 45px;
 }
+.homepic{
+  size: 100vh;
+}
 .aboutpicture {
   position: absolute;
   top: 200px;
@@ -56,7 +59,7 @@ footer {
   top: 200px;
 }
 .middle {
-  height: 100vh;
+  height: 740px;
   background-color: lightpink;
 }
 .p1 {
@@ -80,7 +83,7 @@ footer {
   margin-left: 425px;
 }
 .middle2 {
-  height: 780vh;
+  height: 5700px;
   background-color: lightyellow;
 }
 .wave {
@@ -156,7 +159,7 @@ footer {
   font-size: 25px;
 }
 .middle3 {
-  height: 550vh;
+  height: 4000px;
   background-color: lightblue;
 }
 .upcoming {
