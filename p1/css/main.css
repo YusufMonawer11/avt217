@@ -7,10 +7,7 @@
 body {
   margin:0;
 }
-a {
-  text-decoration: none;
-}
-a:visited { text-decoration: none; color:white; }
+
 header {
   background-color: black;
   height: 107px;
@@ -19,6 +16,12 @@ footer {
   background-color: black;
   height: 107px;
 }
+
+a {
+  text-decoration: none;
+}
+a:visited { text-decoration: none; color:white; }
+
 .logo {
   width: 474px;
   height: 69px;
@@ -61,45 +64,39 @@ footer {
   height: 880px;
   object-fit: cover;
 }
+.footercontainer {
+  display: flex;
+  justify-content: center;
+}
+.footercontent {
+  margin-top: 30px;
+  width: 250px;
+  height: 50px;
+}
 .spotify {
   width: 50px;
   height: 50px;
-  background-color: red;
-  position: relative;
-  top: 29px;
-  left: 580px;
+  float: left;
 }
 .applemusic {
   width: 50px;
   height: 50px;
-  background-color: red;
-  position: relative;
-  top: -21px;
-  left: 640px;
+  float: left;
 }
 .soundcloud {
   width: 50px;
   height: 50px;
-  background-color: red;
-  position: relative;
-  top: -71px;
-  left: 700px;
+  float: left;
 }
 .instagram {
   width: 50px;
   height: 50px;
-  background-color: red;
-  position: relative;
-  top: -121px;
-  left: 760px;
+  float: left;
 }
 .twitter {
   width: 50px;
   height: 50px;
-  background-color: red;
-  position: relative;
-  top: -171px;
-  left: 820px;
+  float: left;
 }
 
 .spotifypic {
@@ -123,11 +120,10 @@ footer {
   height: 50px;
 }
 
-
 .aboutpicture {
-  position: absolute;
-  top: 200px;
-  left: 250px;
+float: left;
+margin-right: 15px;
+margin-left: 17px;
 }
 
 .text {
@@ -136,13 +132,21 @@ footer {
   width: 670px;
   height: 520px;
   font-size: 20px;
-  position: absolute;
-  left: 560px;
-  top: 200px;
+  float: left;
 }
 .middle {
-  height: 740px;
+  height: 100vh;
   background-color: #D8CAD6;
+}
+.aboutcontent {
+  width: 1000px;
+  height: 600px;
+  margin-top: 14vh;
+  margin-bottom: 25px;
+}
+.aboutcontainer {
+  display: flex;
+  justify-content: center;
 }
 .p1 {
   width: 580px;
@@ -174,19 +178,25 @@ footer {
   font-style: normal;
 }
 .middle2 {
-  height: 5700px;
   background-color: #EFEBC5;
+}
+.wavecontainer {
+  display: flex;
+  justify-content: center;
+}
+.wavecontent {
+  height: 1280px;
+  width: 770px;
+  float: left;
+  margin-top: 14vh;
 }
 .wave {
   float: left;
-  margin-top: 100px;
-  width: 800px;
-  margin-left: 350px;
+  width: 770px;
 }
 .wavetitle {
   float: left;
   margin-top: 20px;
-  margin-left: 350px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
@@ -194,23 +204,30 @@ footer {
 .wavetracklist {
   float: left;
   margin-top: 100px;
-  margin-left: 240px;
   line-height: 50px;
   font-size: 25px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
+  margin-left: 225px;
+}
+.bloomcontent {
+  height: 1280px;
+  width: 770px;
+  float: left;
+  margin-top: 14vh;
 }
 .bloom {
   float: left;
-  margin-top: 100px;
-  width: 800px;
-  margin-left: 350px;
+  width: 770px;
+}
+.bloomcontainer {
+  display: flex;
+  justify-content: center;
 }
 .bloomtitle {
   float: left;
   margin-top: 20px;
-  margin-left: 350px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
@@ -218,23 +235,30 @@ footer {
 .bloomtracklist {
   float: left;
   margin-top: 100px;
-  margin-left: 240px;
   line-height: 50px;
   font-size: 25px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
+  margin-left: 225px;
+}
+.flingcontainer {
+  display: flex;
+  justify-content: center;
+}
+.flingcontent {
+  height: 1280px;
+  width: 770px;
+  float: left;
+  margin-top: 14vh;
 }
 .fling {
   float: left;
-  margin-top: 100px;
-  width: 800px;;
-  margin-left: 350px;
+  width: 770px;
 }
 .flingtitle {
   float: left;
   margin-top: 20px;
-  margin-left: 350px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
@@ -242,23 +266,31 @@ footer {
 .flingtracklist {
   float: left;
   margin-top: 100px;
-  margin-left: 260px;
   line-height: 50px;
   font-size: 25px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
+  margin-left: 225px;
+}
+.ninetycontainer {
+  display: flex;
+  justify-content: center;
+}
+.ninetycontent {
+  height: 1280px;
+  width: 770px;
+  float: left;
+  margin-top: 14vh;
+  margin-bottom: 14vh;
 }
 .ninety {
   float: left;
-  margin-top: 100px;
-  width: 800px;;
-  margin-left: 350px;
+  width: 770px;
 }
 .ninetytitle {
   float: left;
   margin-top: 20px;
-  margin-left: 350px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
@@ -266,31 +298,38 @@ footer {
 .ninetytracklist {
   float: left;
   margin-top: 100px;
-  margin-left: 235px;
   line-height: 50px;
   font-size: 25px;
   font-family: source-code-pro, monospace;
   font-weight: 300;
   font-style: normal;
+  margin-left: 225px;
 }
 .middle3 {
-  height: 4000px;
   background-color: #9EC0D3;
+}
+.tourcontent {
+  margin-top: 100px;
+  height: 3800px;
+  width: 1000px;
+}
+.tourcontainer {
+  display: flex;
+  justify-content: center;
 }
 .upcoming {
   float: left;
-  margin-left: 500px;
-  margin-top: 100px;
+  margin-left: 255px;
 }
 .dates {
   background-color: #262F33;
   color: white;
   float: left;
   margin-top: 10px;
-  margin-left: 250px;
   text-align: center;
   width: 965px;
   line-height: 35px;
+  margin-left: 17px;
 }
 .date1 {
   margin-top: 50px;
